@@ -5,8 +5,8 @@ public class MagicBox<T> {
 
     private T item;
     private int itemNumber;
-    T[] itemsInBox;
-    Random random = new Random();
+    private T[] itemsInBox;
+    private Random random = new Random();
 
     public MagicBox (int itemNumber) {
         this.itemNumber = itemNumber;
